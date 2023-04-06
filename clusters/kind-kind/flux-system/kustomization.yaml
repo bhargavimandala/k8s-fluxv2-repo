@@ -4,6 +4,4 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - pod.yaml
-- ns.yaml
-- deployment.yaml
-- podinfo-source.yaml
+

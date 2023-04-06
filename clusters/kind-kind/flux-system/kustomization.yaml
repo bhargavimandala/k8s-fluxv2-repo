@@ -6,3 +6,4 @@ resources:
 - pod.yaml
 - ns.yaml
 - deployment.yaml
+- podinfo-source.yaml

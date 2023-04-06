@@ -6,9 +6,12 @@ metadata:
   namespace: bas-ns
 spec:
   chart:
-    # The repository URL
     repository: https://github.com/bhargavimandala/helm-charts/helm-nginx-chart
-    # The name of the chart (without an alias)
     name: my-chart
-    # The SemVer version of the chart
     version: 0.1.0
+  values:
+    replicaCount: 2
+
+
+
+  

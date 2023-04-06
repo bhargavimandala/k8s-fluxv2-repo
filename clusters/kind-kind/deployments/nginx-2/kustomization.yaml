@@ -1,5 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+namespace: bas-ns
+nameSuffix: -bas
 bases:
-  - nginx-1
-  - nginx-2
+  - ../../common/helm-1/ram/

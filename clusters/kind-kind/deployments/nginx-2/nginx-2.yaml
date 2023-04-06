@@ -7,7 +7,7 @@ metadata:
 spec:
   chart:
     repository: https://github.com/bhargavimandala/helm-charts/helm-nginx-chart
-    name: my-chart
+    name: helm-nginx-chart
     version: 0.1.0
   values:
     replicaCount: 2

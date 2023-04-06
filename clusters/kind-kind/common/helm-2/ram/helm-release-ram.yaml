@@ -2,7 +2,7 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: ram-helmrelease
+  name: bas-helmrelease
 spec:
   chart:
     version: 0.1.0

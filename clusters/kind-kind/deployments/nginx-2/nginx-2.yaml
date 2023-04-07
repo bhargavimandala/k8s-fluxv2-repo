@@ -33,5 +33,3 @@ spec:
         name: nginx-2-repository
         # Optional, defaults to the namespace of the HelmRelease
         namespace: ram-ns
-    values:
-      replicaCount: 2

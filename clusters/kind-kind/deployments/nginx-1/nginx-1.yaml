@@ -33,5 +33,3 @@ spec:
         name: nginx-1-repository
         # Optional, defaults to the namespace of the HelmRelease
         namespace: bas-ns
-    values:
-      replicaCount: 2
